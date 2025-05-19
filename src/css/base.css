@@ -41,16 +41,18 @@ section {
   transform: scale(1.08);
 }
 
+.task-list-item-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 @media only screen and (min-width: 768px) {
   .task-list-item {
     width: calc((100% - 15px * 3) / 4);
   }
 }
 
-/* Базові стилі */
-body {
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
 
 /* Основна світла тема */
 body.theme-light {
